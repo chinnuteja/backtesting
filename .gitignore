@@ -1,0 +1,72 @@
+# ---------- Python basics ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# Bytecode / caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- Virtual environments (any folder depth) ----------
+.venv*/
+venv*/
+ENV*/
+env*/
+**/.venv*/
+**/venv*/
+**/ENV*/
+**/env*/
+
+# ---------- Build / packaging ----------
+build/
+dist/
+sdist/
+wheels/
+develop-eggs/
+.eggs/
+parts/
+var/
+downloads/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---------- Project-specific ----------
+# writable/exported files at runtime
+exports/
+*.log
+
+# (Optional) Generated images or large artifacts; uncomment if you don't want them in Git
+# *.png
+# *.svg
+
+# (Optional) Local data files; uncomment if you fetch data dynamically
+# historical_prices.csv
+
+# ---------- Environment variables / secrets ----------
+.env
+.env.*
+*.env
+
+# Catch common secret name patterns (best-effort)
+*api_key*
+*secret*
+*password*
+*token*
